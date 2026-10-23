@@ -1,0 +1,29 @@
+{
+  "audit": {
+    "raw_rows": 1339,
+    "invalid_target_rows_removed": 1,
+    "exact_duplicates_removed": 1,
+    "clean_rows": 1337
+  },
+  "train_rows": 1069,
+  "test_rows": 268,
+  "split": "80/20, random_state=42, stratified by smoker",
+  "cv": "5-fold shuffled KFold on training partition only",
+  "data_sha256": "238bdf04c9fbb938f78230bb537372c75fa7dc6fe6f306f1cfa95f8b4d1db5b7",
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "metrics": {
+    "selected_model": "Gradient boosting",
+    "test_mae": 1404.0788126399548,
+    "test_rmse": 3294.105586010093,
+    "test_r2": 0.9247262176182036,
+    "baseline_test_mae": 8140.5298770149275,
+    "ridge_test_mae": 3597.43468977124,
+    "mae_reduction_vs_baseline_percent": 82.7519973041998,
+    "mae_reduction_vs_ridge_percent": 60.969998520550206
+  }
+}
